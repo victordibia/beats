@@ -3,7 +3,8 @@
 
 > Nodejs app to process a sound file, identify peaks
 
-[Blog post here](http://denvycom.com/blog/detect-beats-extract-amplitude-data-from-an-audio-file-using-nodejs/){:target="_blank"}
+[Blog post here](http://denvycom.com/blog/detect-beats-extract-amplitude-data-from-an-audio-file-using-nodejs/)
+
 This project provides Node.js code to decode a sound file, identify peaks, and identify beats. There are some sample code available that demonstrate this using HTML5 webaudio api, but this uses a nodejs port of same api.
 
 
