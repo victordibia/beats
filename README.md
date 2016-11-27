@@ -17,7 +17,10 @@ This project provides Node.js code to decode a sound file, identify peaks, and i
 
 ##Running
 
-Note: To ensure correctness, the sound file is played back while being analyzed. ffmpeg is used to play back sound, and this must be installed. To install ffmpeg on a mac
+Note: To ensure correctness, the sound file is played back while being analyzed. ffmpeg is used to play back sound, and this must be installed.
+
+To install ffmpeg on a mac
+
     brew install ffmpeg
 
 Start the application. (Note: you need sudo access)

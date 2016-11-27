@@ -39,7 +39,7 @@ function decodeSoundFile(soundfile){
  * @return {[type]}            [description]
  */
 function findPeaks(pcmdata, samplerate){
-  var interval = 0.06 * 1000 ; index = 0 ;
+  var interval = 0.05 * 1000 ; index = 0 ;
   var step = Math.round( samplerate * (interval/1000) );
   var max = 0 ;
   var prevmax = 0 ;
@@ -69,6 +69,13 @@ function findPeaks(pcmdata, samplerate){
   }, interval,pcmdata);
 }
 
+/**
+ * TBD
+ * @return {[type]} [description]
+ */
+function detectBeats(){
+
+}
 
 /**
  * [getbars Visualize image sound using bars, from average pcmdata within a sample interval]
