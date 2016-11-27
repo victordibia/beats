@@ -1,0 +1,29 @@
+{
+  "name": "beats",
+  "version": "1.0.0",
+  "description": "Nodejs (javascript) app to extract amplitude data from sound file and infer beats.",
+  "main": "beats.js",
+  "scripts": {
+    "test": "beats"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victordibia/beats.git"
+  },
+  "keywords": [
+    "audio",
+    "amplitude",
+    "beats",
+    "pcmdata",
+    "dance"
+  ],
+  "author": "Victor Dibia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victordibia/beats/issues"
+  },
+  "homepage": "https://github.com/victordibia/beats#readme",
+  "dependencies": {
+    "web-audio-api": "^0.2.2"
+  }
+}
